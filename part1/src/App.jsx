@@ -1,11 +1,12 @@
-import Coponent from "./compont";
+
+import Navbar from "./components/navbar";
 
 
 
 const App = () => {
   return ( 
-    <div>
-     
+    <div className="bg-slate-9000">
+     <Navbar/>
     </div>
   );
 }
